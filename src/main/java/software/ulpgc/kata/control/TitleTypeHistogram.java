@@ -30,7 +30,7 @@ public class TitleTypeHistogram implements Histogram {
     }
 
     @Override
-    public List<String> key() {
+    public List<String> keys() {
         List<String> keys = new ArrayList<>();
         for (Title.TitleType titleType : histogram.keySet()) {
             keys.add(titleType.name());
