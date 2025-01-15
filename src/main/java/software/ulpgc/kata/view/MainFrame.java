@@ -1,6 +1,5 @@
 package software.ulpgc.kata.view;
 
-import org.jfree.chart.JFreeChart;
 import software.ulpgc.kata.model.Histogram;
 
 import javax.swing.*;
