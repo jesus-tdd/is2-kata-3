@@ -5,7 +5,7 @@ import java.util.List;
 public interface Histogram {
     String title();
 
-    List<String> key();
+    List<String> keys();
 
     int valueOf(String key);
 }
